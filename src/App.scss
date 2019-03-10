@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: calc(100vw / 10.8);
+    user-select: none;
+    cursor: default;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#app {
+    @include full;
+    font-size: .25rem;
+    background: #f8f9fb;
+    .container {
+        @include full;
+    }
+}

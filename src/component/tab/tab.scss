@@ -1,0 +1,9 @@
+.tab {
+    @include flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.35rem;
+    box-shadow: 0 .1rem .28rem rgba(0, 16, 44, .18), 0 .01rem .05rem rgba(0, 16, 44, .2);
+    background: white;
+}

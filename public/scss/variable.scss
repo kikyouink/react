@@ -1,0 +1,15 @@
+//常用颜色合集
+$color:blue;
+//full
+@mixin full{
+    width: 100%;
+    height: 100%;
+}
+//flex
+@mixin flex($type:space-around){
+    display: flex;
+    align-items: center;
+    justify-content: $type;
+    align-content: center;
+    flex-wrap: wrap;
+}
