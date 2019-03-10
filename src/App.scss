@@ -7,7 +7,7 @@
 html,
 body {
     height: 100%;
-    font-size: calc(100vw / 10.8);
+    // font-size: calc(100vw / 3.6);
     user-select: none;
     cursor: default;
 }
@@ -18,7 +18,7 @@ body {
 
 #app {
     @include full;
-    font-size: .25rem;
+    // font-size: .25rem;
     background: #f8f9fb;
     .container {
         @include full;
